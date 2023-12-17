@@ -1,0 +1,42 @@
+object Form2: TForm2
+  Left = 382
+  Height = 200
+  Top = 303
+  Width = 600
+  AlphaBlend = True
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsDialog
+  Caption = 'About FotoDezz...'
+  ClientHeight = 200
+  ClientWidth = 600
+  Color = clWindow
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '2.2.6.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 200
+    Top = 0
+    Width = 600
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Verdana'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'FotoDezz $VERSION ($BUILD_TIME) - simple Win32 GDI based image destroyer'
+      ''
+      'Code and design by AngelOfV0id (ex. NobootRecord), 2021-2023.'
+      'This is free software released in public domain; see UNLICENSE.txt for further details.'
+      ''
+      'https://github.com/AngelOfV0id/FotoDezz'
+    )
+    ParentFont = False
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+end
