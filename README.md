@@ -14,7 +14,7 @@ FotoDezz has been developed using Delphi 7 originally (Win32 only), recompiled u
 
 I had been developing this program in 2021. Program distributions had been published in my VKontakte public (closed in 2022). The last version, `1.3`, was released in April 2021 - in May 2021 the development completely stopped.
 
-FotoDezz source codes were saved by @Alloyd038 who had been developing his own FotoDezz mod (FotoDezz was Freeware, not Open Source, lol).
+FotoDezz source codes were saved by [Alloyd](https://github.com/Alloyd031) who had been developing his own FotoDezz mod (FotoDezz was Freeware, not Open Source, lol).
 
 FotoDezz is released under the terms of [The Unlicense](UNLICENSE.txt).
 
